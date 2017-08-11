@@ -24,6 +24,17 @@ module.exports =
                 test: /\.scss$/,
                 use: [ 'style-loader', 'css-loader', 'sass-loader' ]
             },
+            //BABEL
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                
+                use:
+                {
+                    loader: 'babel-loader',
+                    options: { presets: [ 'env' ] }
+                }
+            },
             //FONTS
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
