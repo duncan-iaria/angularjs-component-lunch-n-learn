@@ -11,7 +11,8 @@
   "author": "duncan iaria",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.6.5"
+    "angular": "^1.6.5",
+    "angular-ui-router": "^1.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
