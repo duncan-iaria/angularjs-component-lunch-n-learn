@@ -14,6 +14,11 @@ module.exports =
     {
         rules:
         [
+            //HTML BUILD
+            {
+                test: /\.html$/,
+                use: [ 'html-loader' ]
+            },
             //CSS BUILD
             {
                 test: /\.css$/,

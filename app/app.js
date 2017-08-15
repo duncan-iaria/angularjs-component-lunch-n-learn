@@ -2,5 +2,8 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import routing from './app.config.js';
+import { homeComponent } from './components/home/home.component.js';
 
-angular.module( 'app', [ uiRtouer ] ).config( routing );
+console.log( homeComponent );
+
+angular.module( 'app', [ uiRouter ] ).config( routing );
