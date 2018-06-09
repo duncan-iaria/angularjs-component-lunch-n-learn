@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "run": "",
+    "start": "webpack && http-server app/ -a localhost -p 8000",
     "build": "webpack"
   },
   "author": "duncan iaria",
